@@ -1,0 +1,1402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00032D9D22FD53AC0051A912 /* HuGeTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00032D7622FD53AC0051A912 /* HuGeTestTableViewCell.xib */; };
+		00032D9E22FD53AC0051A912 /* HuGeTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D7922FD53AC0051A912 /* HuGeTestTableViewCell.m */; };
+		00032D9F22FD53AC0051A912 /* HuGeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D7A22FD53AC0051A912 /* HuGeTestViewController.m */; };
+		00032DA022FD53AC0051A912 /* UIView+MGNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D7D22FD53AC0051A912 /* UIView+MGNibLoading.m */; };
+		00032DA122FD53AC0051A912 /* UIImageView+PodExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D7F22FD53AC0051A912 /* UIImageView+PodExtension.m */; };
+		00032DA222FD53AC0051A912 /* UIButton+PodExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D8122FD53AC0051A912 /* UIButton+PodExtension.m */; };
+		00032DA322FD53AC0051A912 /* NSObject+PodExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D8222FD53AC0051A912 /* NSObject+PodExtension.m */; };
+		00032DA422FD53AC0051A912 /* UIViewController+MGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D8422FD53AC0051A912 /* UIViewController+MGRouter.m */; };
+		00032DA522FD53AC0051A912 /* NSString+EOBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D8522FD53AC0051A912 /* NSString+EOBAdd.m */; };
+		00032DA622FD53AC0051A912 /* NSDate+EOBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D8722FD53AC0051A912 /* NSDate+EOBExtension.m */; };
+		00032DA722FD53AC0051A912 /* NSDictionary+ESAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D8922FD53AC0051A912 /* NSDictionary+ESAdd.m */; };
+		00032DA822FD53AC0051A912 /* UIColor+MGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D8C22FD53AC0051A912 /* UIColor+MGAdd.m */; };
+		00032DA922FD53AC0051A912 /* HuGeHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D9022FD53AC0051A912 /* HuGeHTTPSessionManager.m */; };
+		00032DAA22FD53AC0051A912 /* HuGeComConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D9222FD53AC0051A912 /* HuGeComConfig.m */; };
+		00032DAB22FD53AC0051A912 /* HuGeBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D9522FD53AC0051A912 /* HuGeBaseModel.m */; };
+		00032DAC22FD53AC0051A912 /* HuGeResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D9722FD53AC0051A912 /* HuGeResponseModel.m */; };
+		00032DAD22FD53AC0051A912 /* MGImageTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D9B22FD53AC0051A912 /* MGImageTextButton.m */; };
+		00032DAE22FD53AC0051A912 /* HuGeComManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032D9C22FD53AC0051A912 /* HuGeComManager.m */; };
+		00032DB122FD53CC0051A912 /* ESAppCom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00032DB022FD53CC0051A912 /* ESAppCom.xcassets */; };
+		00032DBC22FD5F050051A912 /* HuGeUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DBB22FD5F050051A912 /* HuGeUserManager.m */; };
+		00032DC022FD5F370051A912 /* HuGeUserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DBE22FD5F370051A912 /* HuGeUserLoginViewController.m */; };
+		00032DC122FD5F370051A912 /* HuGeUserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00032DBF22FD5F370051A912 /* HuGeUserLoginViewController.xib */; };
+		00032DC522FD5F600051A912 /* HuGeUserRegestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DC322FD5F600051A912 /* HuGeUserRegestViewController.m */; };
+		00032DC622FD5F600051A912 /* HuGeUserRegestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00032DC422FD5F600051A912 /* HuGeUserRegestViewController.xib */; };
+		00032DC922FD5F760051A912 /* HuGeUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DC822FD5F760051A912 /* HuGeUserModel.m */; };
+		00032DCB22FD5F890051A912 /* ESUser.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00032DCA22FD5F890051A912 /* ESUser.xcassets */; };
+		00032DCE22FD5FAC0051A912 /* HuGeUserHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DCD22FD5FAC0051A912 /* HuGeUserHomeView.m */; };
+		00032DD222FD64980051A912 /* HuGeOneTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DD122FD64980051A912 /* HuGeOneTabBarVC.m */; };
+		00032DDD22FD69AD0051A912 /* HuGeInfoHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DDC22FD69AD0051A912 /* HuGeInfoHomeVC.m */; };
+		00032DE022FD69F60051A912 /* HuGeInfoHomeCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DDF22FD69F60051A912 /* HuGeInfoHomeCustomView.m */; };
+		00032DE322FD6A0F0051A912 /* HuGeInfoHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DE222FD6A0F0051A912 /* HuGeInfoHomeManager.m */; };
+		00032DE622FD6A280051A912 /* HuGeInfoHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DE522FD6A280051A912 /* HuGeInfoHomeModel.m */; };
+		00032DE822FD6A3E0051A912 /* ESInfoHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00032DE722FD6A3E0051A912 /* ESInfoHome.xcassets */; };
+		00032DEB22FD73820051A912 /* HuGeInfoListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DEA22FD73820051A912 /* HuGeInfoListModel.m */; };
+		00032DF423010A4D0051A912 /* HuGeInfoHomeVCHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DF223010A4D0051A912 /* HuGeInfoHomeVCHomeCell.m */; };
+		00032DF523010A4D0051A912 /* HuGeInfoHomeVCHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00032DF323010A4D0051A912 /* HuGeInfoHomeVCHomeCell.xib */; };
+		00032DF9230113750051A912 /* HuGeUserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DF8230113750051A912 /* HuGeUserHomeViewController.m */; };
+		00032DFD2301143E0051A912 /* EMYHFeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032DFA2301143E0051A912 /* EMYHFeedbackVC.m */; };
+		00032DFE2301143E0051A912 /* EMYHFeedbackVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00032DFB2301143E0051A912 /* EMYHFeedbackVC.xib */; };
+		00032E0123013B4E0051A912 /* HuGeInfoHomeVCDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E0023013B4E0051A912 /* HuGeInfoHomeVCDetail.m */; };
+		00032E052301494E0051A912 /* HuGeDJMWKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E042301494E0051A912 /* HuGeDJMWKViewController.m */; };
+		00032E0823014AE90051A912 /* HuGeDJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E0723014AE90051A912 /* HuGeDJBaseViewController.m */; };
+		00032E12230154C50051A912 /* HuGeSPVideoHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E11230154C50051A912 /* HuGeSPVideoHomeVC.m */; };
+		00032E162301551A0051A912 /* HuGeSPVideoHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E142301551A0051A912 /* HuGeSPVideoHomeCell.m */; };
+		00032E172301551A0051A912 /* HuGeSPVideoHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00032E152301551A0051A912 /* HuGeSPVideoHomeCell.xib */; };
+		00032E1A230155350051A912 /* HuGeSPVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E19230155350051A912 /* HuGeSPVideoManager.m */; };
+		00032E1D2301555C0051A912 /* HuGeSPVideoHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E1C2301555C0051A912 /* HuGeSPVideoHomeModel.m */; };
+		00032E2023015E790051A912 /* ESSPVideo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00032E1F23015E790051A912 /* ESSPVideo.xcassets */; };
+		00032E23230160330051A912 /* HuGeSPVideoHomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00032E22230160330051A912 /* HuGeSPVideoHomeListModel.m */; };
+		002D4B86230F83C400660002 /* HuGeUserCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D4B84230F83C400660002 /* HuGeUserCenterVC.m */; };
+		002D4B87230F83C400660002 /* HuGeUserCenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002D4B85230F83C400660002 /* HuGeUserCenterVC.xib */; };
+		002D4B8A230F917C00660002 /* HuGeUserBlackListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D4B89230F917C00660002 /* HuGeUserBlackListVC.m */; };
+		002D4B8D230F92D000660002 /* HuGeUserListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D4B8C230F92D000660002 /* HuGeUserListModel.m */; };
+		002D4B91230F9D6600660002 /* HuGeUserBlackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D4B8F230F9D6600660002 /* HuGeUserBlackCell.m */; };
+		002D4B92230F9D6600660002 /* HuGeUserBlackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002D4B90230F9D6600660002 /* HuGeUserBlackCell.xib */; };
+		002D4B95230FB80B00660002 /* HuGeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D4B94230FB80B00660002 /* HuGeWebViewController.m */; };
+		002D4B9F2313B67700660002 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002D4B9E2313B67700660002 /* JavaScriptCore.framework */; };
+		00735F8522F7FCF2005BA579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00735F8422F7FCF2005BA579 /* AppDelegate.m */; };
+		00735F8822F7FCF2005BA579 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00735F8722F7FCF2005BA579 /* ViewController.m */; };
+		00735F8B22F7FCF2005BA579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00735F8922F7FCF2005BA579 /* Main.storyboard */; };
+		00735F8D22F7FCF2005BA579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00735F8C22F7FCF2005BA579 /* Assets.xcassets */; };
+		00735F9022F7FCF2005BA579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00735F8E22F7FCF2005BA579 /* LaunchScreen.storyboard */; };
+		00735F9322F7FCF2005BA579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00735F9222F7FCF2005BA579 /* main.m */; };
+		00753314230A89D500B49E73 /* HuGeInfoDetailCommentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753313230A89D500B49E73 /* HuGeInfoDetailCommentVC.m */; };
+		0075331C230A8CA100B49E73 /* HuGePLCommentFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00753319230A8CA000B49E73 /* HuGePLCommentFooterView.xib */; };
+		0075331D230A8CA100B49E73 /* HuGePLCommentFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075331B230A8CA100B49E73 /* HuGePLCommentFooterView.m */; };
+		00753540230A90AE00B49E73 /* Comment.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0075353F230A90AE00B49E73 /* Comment.xcassets */; };
+		00753544230A915900B49E73 /* HuGeCommentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753543230A915900B49E73 /* HuGeCommentManager.m */; };
+		00753548230A92E800B49E73 /* HuGeCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753547230A92E800B49E73 /* HuGeCommentModel.m */; };
+		0075354C230A944800B49E73 /* HuGeCommentListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075354B230A944800B49E73 /* HuGeCommentListModel.m */; };
+		00753550230A962F00B49E73 /* HuGePLCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075354E230A962F00B49E73 /* HuGePLCommentCell.m */; };
+		00753551230A962F00B49E73 /* HuGePLCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0075354F230A962F00B49E73 /* HuGePLCommentCell.xib */; };
+		00753558230CE01A00B49E73 /* HuGeCommunityHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753556230CE01A00B49E73 /* HuGeCommunityHomeVC.m */; };
+		00753559230CE01A00B49E73 /* HuGeCommunityHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00753557230CE01A00B49E73 /* HuGeCommunityHomeVC.xib */; };
+		00753561230CE36B00B49E73 /* HuGeCommunityListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075355F230CE36B00B49E73 /* HuGeCommunityListCell.m */; };
+		00753562230CE36B00B49E73 /* HuGeCommunityListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00753560230CE36B00B49E73 /* HuGeCommunityListCell.xib */; };
+		00753565230CE38500B49E73 /* HuGeCommunityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753564230CE38500B49E73 /* HuGeCommunityModel.m */; };
+		00753568230CE39700B49E73 /* HuGeCommunityListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753567230CE39700B49E73 /* HuGeCommunityListModel.m */; };
+		0075356B230CE3AE00B49E73 /* HuGeCommunityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075356A230CE3AE00B49E73 /* HuGeCommunityManager.m */; };
+		0075356D230CE3C600B49E73 /* ESCommunity.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0075356C230CE3C600B49E73 /* ESCommunity.xcassets */; };
+		00753571230D12A300B49E73 /* HuGeCommunityListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753570230D12A300B49E73 /* HuGeCommunityListVC.m */; };
+		00753574230D15D700B49E73 /* HuGeCommunityDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753573230D15D700B49E73 /* HuGeCommunityDetailVC.m */; };
+		00753577230D4BA000B49E73 /* HuGeCommunityMyListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753576230D4BA000B49E73 /* HuGeCommunityMyListVC.m */; };
+		0075357A230D555900B49E73 /* HuGeUserMyMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753579230D555900B49E73 /* HuGeUserMyMessageVC.m */; };
+		00753581230D561300B49E73 /* HuGeUserMyMessageVCListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075357F230D561300B49E73 /* HuGeUserMyMessageVCListCell.m */; };
+		00753582230D561300B49E73 /* HuGeUserMyMessageVCListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00753580230D561300B49E73 /* HuGeUserMyMessageVCListCell.xib */; };
+		00753585230D582800B49E73 /* HuGeUserMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753584230D582800B49E73 /* HuGeUserMessageModel.m */; };
+		00753588230D587A00B49E73 /* HuGeUserMessageListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753587230D587A00B49E73 /* HuGeUserMessageListModel.m */; };
+		00FC0B27230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FC0B24230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.xib */; };
+		00FC0B28230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC0B26230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m */; };
+		00FEEF6F23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF6E23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.m */; };
+		00FEEF72230254C90019E087 /* HuGeSQVideoLDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF71230254C90019E087 /* HuGeSQVideoLDetailHeaderView.m */; };
+		00FEEF75230257350019E087 /* HuGeSPVideoDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF74230257350019E087 /* HuGeSPVideoDetailView.m */; };
+		00FEEF7E230261840019E087 /* HuGeSPVideoRecommendedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF7C230261840019E087 /* HuGeSPVideoRecommendedCell.m */; };
+		00FEEF7F230261840019E087 /* HuGeSPVideoRecommendedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FEEF7D230261840019E087 /* HuGeSPVideoRecommendedCell.xib */; };
+		00FEEF882303A22B0019E087 /* ESEvent.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FEEF872303A22B0019E087 /* ESEvent.xcassets */; };
+		00FEEF8B2303A2580019E087 /* HuGeEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF8A2303A2580019E087 /* HuGeEventManager.m */; };
+		00FEEF8E2303A2820019E087 /* HuGeEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF8D2303A2820019E087 /* HuGeEventModel.m */; };
+		00FEEF922303A29B0019E087 /* HuGeEventHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF902303A29B0019E087 /* HuGeEventHomeTableViewCell.m */; };
+		00FEEF932303A29B0019E087 /* HuGeEventHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FEEF912303A29B0019E087 /* HuGeEventHomeTableViewCell.xib */; };
+		00FEEF962303A2B10019E087 /* HuGeEventHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF952303A2B10019E087 /* HuGeEventHomeViewController.m */; };
+		00FEEF9A2303A43B0019E087 /* HuGeEventListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF992303A43B0019E087 /* HuGeEventListModel.m */; };
+		00FEEF9E2303A6D30019E087 /* HuGeEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF9B2303A6D30019E087 /* HuGeEventTableViewCell.m */; };
+		00FEEF9F2303A6D30019E087 /* HuGeEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FEEF9C2303A6D30019E087 /* HuGeEventTableViewCell.xib */; };
+		00FEEFA22303E39B0019E087 /* HuGeEventHomeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEFA12303E39B0019E087 /* HuGeEventHomeDetailVC.m */; };
+		23001296E4916C98D92ED94C /* Pods_HuGeDJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E0C40ED85C650C9FE9B267 /* Pods_HuGeDJ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00032D7422FD53AC0051A912 /* HuGeComConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeComConfig.h; sourceTree = "<group>"; };
+		00032D7622FD53AC0051A912 /* HuGeTestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuGeTestTableViewCell.xib; sourceTree = "<group>"; };
+		00032D7722FD53AC0051A912 /* HuGeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeTestViewController.h; sourceTree = "<group>"; };
+		00032D7822FD53AC0051A912 /* HuGeTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeTestTableViewCell.h; sourceTree = "<group>"; };
+		00032D7922FD53AC0051A912 /* HuGeTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeTestTableViewCell.m; sourceTree = "<group>"; };
+		00032D7A22FD53AC0051A912 /* HuGeTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeTestViewController.m; sourceTree = "<group>"; };
+		00032D7C22FD53AC0051A912 /* NSDate+EOBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EOBExtension.h"; sourceTree = "<group>"; };
+		00032D7D22FD53AC0051A912 /* UIView+MGNibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MGNibLoading.m"; sourceTree = "<group>"; };
+		00032D7E22FD53AC0051A912 /* NSString+EOBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOBAdd.h"; sourceTree = "<group>"; };
+		00032D7F22FD53AC0051A912 /* UIImageView+PodExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PodExtension.m"; sourceTree = "<group>"; };
+		00032D8022FD53AC0051A912 /* NSDictionary+ESAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ESAdd.h"; sourceTree = "<group>"; };
+		00032D8122FD53AC0051A912 /* UIButton+PodExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PodExtension.m"; sourceTree = "<group>"; };
+		00032D8222FD53AC0051A912 /* NSObject+PodExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PodExtension.m"; sourceTree = "<group>"; };
+		00032D8322FD53AC0051A912 /* UIColor+MGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MGAdd.h"; sourceTree = "<group>"; };
+		00032D8422FD53AC0051A912 /* UIViewController+MGRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MGRouter.m"; sourceTree = "<group>"; };
+		00032D8522FD53AC0051A912 /* NSString+EOBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOBAdd.m"; sourceTree = "<group>"; };
+		00032D8622FD53AC0051A912 /* UIView+MGNibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MGNibLoading.h"; sourceTree = "<group>"; };
+		00032D8722FD53AC0051A912 /* NSDate+EOBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EOBExtension.m"; sourceTree = "<group>"; };
+		00032D8822FD53AC0051A912 /* UIButton+PodExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PodExtension.h"; sourceTree = "<group>"; };
+		00032D8922FD53AC0051A912 /* NSDictionary+ESAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ESAdd.m"; sourceTree = "<group>"; };
+		00032D8A22FD53AC0051A912 /* UIImageView+PodExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PodExtension.h"; sourceTree = "<group>"; };
+		00032D8B22FD53AC0051A912 /* UIViewController+MGRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MGRouter.h"; sourceTree = "<group>"; };
+		00032D8C22FD53AC0051A912 /* UIColor+MGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MGAdd.m"; sourceTree = "<group>"; };
+		00032D8D22FD53AC0051A912 /* NSObject+PodExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PodExtension.h"; sourceTree = "<group>"; };
+		00032D8E22FD53AC0051A912 /* HuGeComManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeComManager.h; sourceTree = "<group>"; };
+		00032D9022FD53AC0051A912 /* HuGeHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeHTTPSessionManager.m; sourceTree = "<group>"; };
+		00032D9122FD53AC0051A912 /* HuGeHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeHTTPSessionManager.h; sourceTree = "<group>"; };
+		00032D9222FD53AC0051A912 /* HuGeComConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeComConfig.m; sourceTree = "<group>"; };
+		00032D9322FD53AC0051A912 /* ESAppCom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESAppCom.h; sourceTree = "<group>"; };
+		00032D9522FD53AC0051A912 /* HuGeBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeBaseModel.m; sourceTree = "<group>"; };
+		00032D9622FD53AC0051A912 /* HuGeResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeResponseModel.h; sourceTree = "<group>"; };
+		00032D9722FD53AC0051A912 /* HuGeResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeResponseModel.m; sourceTree = "<group>"; };
+		00032D9822FD53AC0051A912 /* HuGeBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeBaseModel.h; sourceTree = "<group>"; };
+		00032D9A22FD53AC0051A912 /* MGImageTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGImageTextButton.h; sourceTree = "<group>"; };
+		00032D9B22FD53AC0051A912 /* MGImageTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGImageTextButton.m; sourceTree = "<group>"; };
+		00032D9C22FD53AC0051A912 /* HuGeComManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeComManager.m; sourceTree = "<group>"; };
+		00032DB022FD53CC0051A912 /* ESAppCom.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ESAppCom.xcassets; sourceTree = "<group>"; };
+		00032DB222FD54030051A912 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		00032DBA22FD5F050051A912 /* HuGeUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserManager.h; sourceTree = "<group>"; };
+		00032DBB22FD5F050051A912 /* HuGeUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserManager.m; sourceTree = "<group>"; };
+		00032DBD22FD5F370051A912 /* HuGeUserLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserLoginViewController.h; sourceTree = "<group>"; };
+		00032DBE22FD5F370051A912 /* HuGeUserLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserLoginViewController.m; sourceTree = "<group>"; };
+		00032DBF22FD5F370051A912 /* HuGeUserLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeUserLoginViewController.xib; sourceTree = "<group>"; };
+		00032DC222FD5F600051A912 /* HuGeUserRegestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserRegestViewController.h; sourceTree = "<group>"; };
+		00032DC322FD5F600051A912 /* HuGeUserRegestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserRegestViewController.m; sourceTree = "<group>"; };
+		00032DC422FD5F600051A912 /* HuGeUserRegestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeUserRegestViewController.xib; sourceTree = "<group>"; };
+		00032DC722FD5F760051A912 /* HuGeUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserModel.h; sourceTree = "<group>"; };
+		00032DC822FD5F760051A912 /* HuGeUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserModel.m; sourceTree = "<group>"; };
+		00032DCA22FD5F890051A912 /* ESUser.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ESUser.xcassets; sourceTree = "<group>"; };
+		00032DCC22FD5FAC0051A912 /* HuGeUserHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserHomeView.h; sourceTree = "<group>"; };
+		00032DCD22FD5FAC0051A912 /* HuGeUserHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserHomeView.m; sourceTree = "<group>"; };
+		00032DCF22FD63D40051A912 /* ESUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESUser.h; sourceTree = "<group>"; };
+		00032DD022FD64980051A912 /* HuGeOneTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeOneTabBarVC.h; sourceTree = "<group>"; };
+		00032DD122FD64980051A912 /* HuGeOneTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeOneTabBarVC.m; sourceTree = "<group>"; };
+		00032DDA22FD69790051A912 /* Information.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Information.h; sourceTree = "<group>"; };
+		00032DDB22FD69AD0051A912 /* HuGeInfoHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoHomeVC.h; sourceTree = "<group>"; };
+		00032DDC22FD69AD0051A912 /* HuGeInfoHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoHomeVC.m; sourceTree = "<group>"; };
+		00032DDE22FD69F60051A912 /* HuGeInfoHomeCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoHomeCustomView.h; sourceTree = "<group>"; };
+		00032DDF22FD69F60051A912 /* HuGeInfoHomeCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoHomeCustomView.m; sourceTree = "<group>"; };
+		00032DE122FD6A0F0051A912 /* HuGeInfoHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoHomeManager.h; sourceTree = "<group>"; };
+		00032DE222FD6A0F0051A912 /* HuGeInfoHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoHomeManager.m; sourceTree = "<group>"; };
+		00032DE422FD6A280051A912 /* HuGeInfoHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoHomeModel.h; sourceTree = "<group>"; };
+		00032DE522FD6A280051A912 /* HuGeInfoHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoHomeModel.m; sourceTree = "<group>"; };
+		00032DE722FD6A3E0051A912 /* ESInfoHome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ESInfoHome.xcassets; sourceTree = "<group>"; };
+		00032DE922FD73820051A912 /* HuGeInfoListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoListModel.h; sourceTree = "<group>"; };
+		00032DEA22FD73820051A912 /* HuGeInfoListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoListModel.m; sourceTree = "<group>"; };
+		00032DF123010A4D0051A912 /* HuGeInfoHomeVCHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoHomeVCHomeCell.h; sourceTree = "<group>"; };
+		00032DF223010A4D0051A912 /* HuGeInfoHomeVCHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoHomeVCHomeCell.m; sourceTree = "<group>"; };
+		00032DF323010A4D0051A912 /* HuGeInfoHomeVCHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeInfoHomeVCHomeCell.xib; sourceTree = "<group>"; };
+		00032DF7230113750051A912 /* HuGeUserHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserHomeViewController.h; sourceTree = "<group>"; };
+		00032DF8230113750051A912 /* HuGeUserHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserHomeViewController.m; sourceTree = "<group>"; };
+		00032DFA2301143E0051A912 /* EMYHFeedbackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMYHFeedbackVC.m; sourceTree = "<group>"; };
+		00032DFB2301143E0051A912 /* EMYHFeedbackVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMYHFeedbackVC.xib; sourceTree = "<group>"; };
+		00032DFC2301143E0051A912 /* EMYHFeedbackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMYHFeedbackVC.h; sourceTree = "<group>"; };
+		00032DFF23013B4E0051A912 /* HuGeInfoHomeVCDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoHomeVCDetail.h; sourceTree = "<group>"; };
+		00032E0023013B4E0051A912 /* HuGeInfoHomeVCDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoHomeVCDetail.m; sourceTree = "<group>"; };
+		00032E032301494E0051A912 /* HuGeDJMWKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeDJMWKViewController.h; sourceTree = "<group>"; };
+		00032E042301494E0051A912 /* HuGeDJMWKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeDJMWKViewController.m; sourceTree = "<group>"; };
+		00032E0623014AE90051A912 /* HuGeDJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeDJBaseViewController.h; sourceTree = "<group>"; };
+		00032E0723014AE90051A912 /* HuGeDJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeDJBaseViewController.m; sourceTree = "<group>"; };
+		00032E10230154C50051A912 /* HuGeSPVideoHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoHomeVC.h; sourceTree = "<group>"; };
+		00032E11230154C50051A912 /* HuGeSPVideoHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoHomeVC.m; sourceTree = "<group>"; };
+		00032E132301551A0051A912 /* HuGeSPVideoHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoHomeCell.h; sourceTree = "<group>"; };
+		00032E142301551A0051A912 /* HuGeSPVideoHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoHomeCell.m; sourceTree = "<group>"; };
+		00032E152301551A0051A912 /* HuGeSPVideoHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeSPVideoHomeCell.xib; sourceTree = "<group>"; };
+		00032E18230155350051A912 /* HuGeSPVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoManager.h; sourceTree = "<group>"; };
+		00032E19230155350051A912 /* HuGeSPVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoManager.m; sourceTree = "<group>"; };
+		00032E1B2301555C0051A912 /* HuGeSPVideoHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoHomeModel.h; sourceTree = "<group>"; };
+		00032E1C2301555C0051A912 /* HuGeSPVideoHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoHomeModel.m; sourceTree = "<group>"; };
+		00032E1E230155BF0051A912 /* ESSPVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESSPVideo.h; sourceTree = "<group>"; };
+		00032E1F23015E790051A912 /* ESSPVideo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ESSPVideo.xcassets; sourceTree = "<group>"; };
+		00032E21230160330051A912 /* HuGeSPVideoHomeListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoHomeListModel.h; sourceTree = "<group>"; };
+		00032E22230160330051A912 /* HuGeSPVideoHomeListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoHomeListModel.m; sourceTree = "<group>"; };
+		002D4B83230F83C400660002 /* HuGeUserCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserCenterVC.h; sourceTree = "<group>"; };
+		002D4B84230F83C400660002 /* HuGeUserCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserCenterVC.m; sourceTree = "<group>"; };
+		002D4B85230F83C400660002 /* HuGeUserCenterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeUserCenterVC.xib; sourceTree = "<group>"; };
+		002D4B88230F917C00660002 /* HuGeUserBlackListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserBlackListVC.h; sourceTree = "<group>"; };
+		002D4B89230F917C00660002 /* HuGeUserBlackListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserBlackListVC.m; sourceTree = "<group>"; };
+		002D4B8B230F92D000660002 /* HuGeUserListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserListModel.h; sourceTree = "<group>"; };
+		002D4B8C230F92D000660002 /* HuGeUserListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserListModel.m; sourceTree = "<group>"; };
+		002D4B8E230F9D6600660002 /* HuGeUserBlackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserBlackCell.h; sourceTree = "<group>"; };
+		002D4B8F230F9D6600660002 /* HuGeUserBlackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserBlackCell.m; sourceTree = "<group>"; };
+		002D4B90230F9D6600660002 /* HuGeUserBlackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeUserBlackCell.xib; sourceTree = "<group>"; };
+		002D4B93230FB80B00660002 /* HuGeWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeWebViewController.h; sourceTree = "<group>"; };
+		002D4B94230FB80B00660002 /* HuGeWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeWebViewController.m; sourceTree = "<group>"; };
+		002D4B9E2313B67700660002 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		002D4BA12313BF7800660002 /* HuGeDJ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HuGeDJ.entitlements; sourceTree = "<group>"; };
+		00735F8022F7FCF2005BA579 /* HuGeDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuGeDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00735F8322F7FCF2005BA579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00735F8422F7FCF2005BA579 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00735F8622F7FCF2005BA579 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00735F8722F7FCF2005BA579 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00735F8A22F7FCF2005BA579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00735F8C22F7FCF2005BA579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00735F8F22F7FCF2005BA579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00735F9122F7FCF2005BA579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00735F9222F7FCF2005BA579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00753312230A89D500B49E73 /* HuGeInfoDetailCommentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeInfoDetailCommentVC.h; sourceTree = "<group>"; };
+		00753313230A89D500B49E73 /* HuGeInfoDetailCommentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeInfoDetailCommentVC.m; sourceTree = "<group>"; };
+		00753319230A8CA000B49E73 /* HuGePLCommentFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuGePLCommentFooterView.xib; sourceTree = "<group>"; };
+		0075331A230A8CA000B49E73 /* HuGePLCommentFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGePLCommentFooterView.h; sourceTree = "<group>"; };
+		0075331B230A8CA100B49E73 /* HuGePLCommentFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGePLCommentFooterView.m; sourceTree = "<group>"; };
+		0075353F230A90AE00B49E73 /* Comment.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Comment.xcassets; sourceTree = "<group>"; };
+		00753542230A915900B49E73 /* HuGeCommentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommentManager.h; sourceTree = "<group>"; };
+		00753543230A915900B49E73 /* HuGeCommentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommentManager.m; sourceTree = "<group>"; };
+		00753546230A92E800B49E73 /* HuGeCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommentModel.h; sourceTree = "<group>"; };
+		00753547230A92E800B49E73 /* HuGeCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommentModel.m; sourceTree = "<group>"; };
+		00753549230A930200B49E73 /* ESComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESComment.h; sourceTree = "<group>"; };
+		0075354A230A944800B49E73 /* HuGeCommentListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommentListModel.h; sourceTree = "<group>"; };
+		0075354B230A944800B49E73 /* HuGeCommentListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommentListModel.m; sourceTree = "<group>"; };
+		0075354D230A962F00B49E73 /* HuGePLCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGePLCommentCell.h; sourceTree = "<group>"; };
+		0075354E230A962F00B49E73 /* HuGePLCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGePLCommentCell.m; sourceTree = "<group>"; };
+		0075354F230A962F00B49E73 /* HuGePLCommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGePLCommentCell.xib; sourceTree = "<group>"; };
+		00753555230CE01A00B49E73 /* HuGeCommunityHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityHomeVC.h; sourceTree = "<group>"; };
+		00753556230CE01A00B49E73 /* HuGeCommunityHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityHomeVC.m; sourceTree = "<group>"; };
+		00753557230CE01A00B49E73 /* HuGeCommunityHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeCommunityHomeVC.xib; sourceTree = "<group>"; };
+		0075355E230CE36B00B49E73 /* HuGeCommunityListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityListCell.h; sourceTree = "<group>"; };
+		0075355F230CE36B00B49E73 /* HuGeCommunityListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityListCell.m; sourceTree = "<group>"; };
+		00753560230CE36B00B49E73 /* HuGeCommunityListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeCommunityListCell.xib; sourceTree = "<group>"; };
+		00753563230CE38500B49E73 /* HuGeCommunityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityModel.h; sourceTree = "<group>"; };
+		00753564230CE38500B49E73 /* HuGeCommunityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityModel.m; sourceTree = "<group>"; };
+		00753566230CE39700B49E73 /* HuGeCommunityListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityListModel.h; sourceTree = "<group>"; };
+		00753567230CE39700B49E73 /* HuGeCommunityListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityListModel.m; sourceTree = "<group>"; };
+		00753569230CE3AE00B49E73 /* HuGeCommunityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityManager.h; sourceTree = "<group>"; };
+		0075356A230CE3AE00B49E73 /* HuGeCommunityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityManager.m; sourceTree = "<group>"; };
+		0075356C230CE3C600B49E73 /* ESCommunity.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ESCommunity.xcassets; sourceTree = "<group>"; };
+		0075356E230CED1900B49E73 /* Community.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Community.h; sourceTree = "<group>"; };
+		0075356F230D12A300B49E73 /* HuGeCommunityListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityListVC.h; sourceTree = "<group>"; };
+		00753570230D12A300B49E73 /* HuGeCommunityListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityListVC.m; sourceTree = "<group>"; };
+		00753572230D15D700B49E73 /* HuGeCommunityDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityDetailVC.h; sourceTree = "<group>"; };
+		00753573230D15D700B49E73 /* HuGeCommunityDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityDetailVC.m; sourceTree = "<group>"; };
+		00753575230D4BA000B49E73 /* HuGeCommunityMyListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeCommunityMyListVC.h; sourceTree = "<group>"; };
+		00753576230D4BA000B49E73 /* HuGeCommunityMyListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeCommunityMyListVC.m; sourceTree = "<group>"; };
+		00753578230D555900B49E73 /* HuGeUserMyMessageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserMyMessageVC.h; sourceTree = "<group>"; };
+		00753579230D555900B49E73 /* HuGeUserMyMessageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserMyMessageVC.m; sourceTree = "<group>"; };
+		0075357E230D561300B49E73 /* HuGeUserMyMessageVCListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserMyMessageVCListCell.h; sourceTree = "<group>"; };
+		0075357F230D561300B49E73 /* HuGeUserMyMessageVCListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserMyMessageVCListCell.m; sourceTree = "<group>"; };
+		00753580230D561300B49E73 /* HuGeUserMyMessageVCListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeUserMyMessageVCListCell.xib; sourceTree = "<group>"; };
+		00753583230D582800B49E73 /* HuGeUserMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserMessageModel.h; sourceTree = "<group>"; };
+		00753584230D582800B49E73 /* HuGeUserMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserMessageModel.m; sourceTree = "<group>"; };
+		00753586230D587A00B49E73 /* HuGeUserMessageListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserMessageListModel.h; sourceTree = "<group>"; };
+		00753587230D587A00B49E73 /* HuGeUserMessageListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserMessageListModel.m; sourceTree = "<group>"; };
+		00FC0B24230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuGeEventTwoTypeHomeCell.xib; sourceTree = "<group>"; };
+		00FC0B25230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeEventTwoTypeHomeCell.h; sourceTree = "<group>"; };
+		00FC0B26230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeEventTwoTypeHomeCell.m; sourceTree = "<group>"; };
+		00FEEF6D23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoHomeDetailVC.h; sourceTree = "<group>"; };
+		00FEEF6E23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoHomeDetailVC.m; sourceTree = "<group>"; };
+		00FEEF70230254C90019E087 /* HuGeSQVideoLDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSQVideoLDetailHeaderView.h; sourceTree = "<group>"; };
+		00FEEF71230254C90019E087 /* HuGeSQVideoLDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSQVideoLDetailHeaderView.m; sourceTree = "<group>"; };
+		00FEEF73230257350019E087 /* HuGeSPVideoDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoDetailView.h; sourceTree = "<group>"; };
+		00FEEF74230257350019E087 /* HuGeSPVideoDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoDetailView.m; sourceTree = "<group>"; };
+		00FEEF7B230261840019E087 /* HuGeSPVideoRecommendedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeSPVideoRecommendedCell.h; sourceTree = "<group>"; };
+		00FEEF7C230261840019E087 /* HuGeSPVideoRecommendedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeSPVideoRecommendedCell.m; sourceTree = "<group>"; };
+		00FEEF7D230261840019E087 /* HuGeSPVideoRecommendedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeSPVideoRecommendedCell.xib; sourceTree = "<group>"; };
+		00FEEF872303A22B0019E087 /* ESEvent.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ESEvent.xcassets; sourceTree = "<group>"; };
+		00FEEF892303A2580019E087 /* HuGeEventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeEventManager.h; sourceTree = "<group>"; };
+		00FEEF8A2303A2580019E087 /* HuGeEventManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeEventManager.m; sourceTree = "<group>"; };
+		00FEEF8C2303A2820019E087 /* HuGeEventModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeEventModel.h; sourceTree = "<group>"; };
+		00FEEF8D2303A2820019E087 /* HuGeEventModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeEventModel.m; sourceTree = "<group>"; };
+		00FEEF8F2303A29B0019E087 /* HuGeEventHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeEventHomeTableViewCell.h; sourceTree = "<group>"; };
+		00FEEF902303A29B0019E087 /* HuGeEventHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeEventHomeTableViewCell.m; sourceTree = "<group>"; };
+		00FEEF912303A29B0019E087 /* HuGeEventHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeEventHomeTableViewCell.xib; sourceTree = "<group>"; };
+		00FEEF942303A2B10019E087 /* HuGeEventHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeEventHomeViewController.h; sourceTree = "<group>"; };
+		00FEEF952303A2B10019E087 /* HuGeEventHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeEventHomeViewController.m; sourceTree = "<group>"; };
+		00FEEF972303A3A80019E087 /* EXEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXEvent.h; sourceTree = "<group>"; };
+		00FEEF982303A43A0019E087 /* HuGeEventListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeEventListModel.h; sourceTree = "<group>"; };
+		00FEEF992303A43B0019E087 /* HuGeEventListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeEventListModel.m; sourceTree = "<group>"; };
+		00FEEF9B2303A6D30019E087 /* HuGeEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeEventTableViewCell.m; sourceTree = "<group>"; };
+		00FEEF9C2303A6D30019E087 /* HuGeEventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuGeEventTableViewCell.xib; sourceTree = "<group>"; };
+		00FEEF9D2303A6D30019E087 /* HuGeEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeEventTableViewCell.h; sourceTree = "<group>"; };
+		00FEEFA02303E39B0019E087 /* HuGeEventHomeDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeEventHomeDetailVC.h; sourceTree = "<group>"; };
+		00FEEFA12303E39B0019E087 /* HuGeEventHomeDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeEventHomeDetailVC.m; sourceTree = "<group>"; };
+		2B500CE8449F43934B3825D7 /* Pods-HuGeDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuGeDJ.debug.xcconfig"; path = "Target Support Files/Pods-HuGeDJ/Pods-HuGeDJ.debug.xcconfig"; sourceTree = "<group>"; };
+		B2C8049DC516E37EAF7AB43B /* Pods-HuGeDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuGeDJ.release.xcconfig"; path = "Target Support Files/Pods-HuGeDJ/Pods-HuGeDJ.release.xcconfig"; sourceTree = "<group>"; };
+		C2E0C40ED85C650C9FE9B267 /* Pods_HuGeDJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuGeDJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00735F7D22F7FCF2005BA579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D4B9F2313B67700660002 /* JavaScriptCore.framework in Frameworks */,
+				23001296E4916C98D92ED94C /* Pods_HuGeDJ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00032D7222FD538B0051A912 /* Com */ = {
+			isa = PBXGroup;
+			children = (
+				00032DAF22FD53CC0051A912 /* Resources */,
+				00032D7322FD53AC0051A912 /* Classes */,
+			);
+			path = Com;
+			sourceTree = "<group>";
+		};
+		00032D7322FD53AC0051A912 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00032D9322FD53AC0051A912 /* ESAppCom.h */,
+				00032D7422FD53AC0051A912 /* HuGeComConfig.h */,
+				00032D9222FD53AC0051A912 /* HuGeComConfig.m */,
+				00032D8E22FD53AC0051A912 /* HuGeComManager.h */,
+				00032D9C22FD53AC0051A912 /* HuGeComManager.m */,
+				00032D7522FD53AC0051A912 /* Test */,
+				00032D7B22FD53AC0051A912 /* Category */,
+				00032D8F22FD53AC0051A912 /* Network */,
+				00032D9422FD53AC0051A912 /* Model */,
+				00032D9922FD53AC0051A912 /* CustomView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00032D7522FD53AC0051A912 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				00032D7622FD53AC0051A912 /* HuGeTestTableViewCell.xib */,
+				00032D7722FD53AC0051A912 /* HuGeTestViewController.h */,
+				00032D7822FD53AC0051A912 /* HuGeTestTableViewCell.h */,
+				00032D7922FD53AC0051A912 /* HuGeTestTableViewCell.m */,
+				00032D7A22FD53AC0051A912 /* HuGeTestViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		00032D7B22FD53AC0051A912 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				00032D7C22FD53AC0051A912 /* NSDate+EOBExtension.h */,
+				00032D7D22FD53AC0051A912 /* UIView+MGNibLoading.m */,
+				00032D7E22FD53AC0051A912 /* NSString+EOBAdd.h */,
+				00032D7F22FD53AC0051A912 /* UIImageView+PodExtension.m */,
+				00032D8022FD53AC0051A912 /* NSDictionary+ESAdd.h */,
+				00032D8122FD53AC0051A912 /* UIButton+PodExtension.m */,
+				00032D8222FD53AC0051A912 /* NSObject+PodExtension.m */,
+				00032D8322FD53AC0051A912 /* UIColor+MGAdd.h */,
+				00032D8422FD53AC0051A912 /* UIViewController+MGRouter.m */,
+				00032D8522FD53AC0051A912 /* NSString+EOBAdd.m */,
+				00032D8622FD53AC0051A912 /* UIView+MGNibLoading.h */,
+				00032D8722FD53AC0051A912 /* NSDate+EOBExtension.m */,
+				00032D8822FD53AC0051A912 /* UIButton+PodExtension.h */,
+				00032D8922FD53AC0051A912 /* NSDictionary+ESAdd.m */,
+				00032D8A22FD53AC0051A912 /* UIImageView+PodExtension.h */,
+				00032D8B22FD53AC0051A912 /* UIViewController+MGRouter.h */,
+				00032D8C22FD53AC0051A912 /* UIColor+MGAdd.m */,
+				00032D8D22FD53AC0051A912 /* NSObject+PodExtension.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		00032D8F22FD53AC0051A912 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				00032D9022FD53AC0051A912 /* HuGeHTTPSessionManager.m */,
+				00032D9122FD53AC0051A912 /* HuGeHTTPSessionManager.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		00032D9422FD53AC0051A912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00032D9522FD53AC0051A912 /* HuGeBaseModel.m */,
+				00032D9622FD53AC0051A912 /* HuGeResponseModel.h */,
+				00032D9722FD53AC0051A912 /* HuGeResponseModel.m */,
+				00032D9822FD53AC0051A912 /* HuGeBaseModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00032D9922FD53AC0051A912 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				00032D9A22FD53AC0051A912 /* MGImageTextButton.h */,
+				00032D9B22FD53AC0051A912 /* MGImageTextButton.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		00032DAF22FD53CC0051A912 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00032DB022FD53CC0051A912 /* ESAppCom.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00032DB322FD5D7C0051A912 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				00032DB522FD5D9A0051A912 /* Resources */,
+				00032DB422FD5D8E0051A912 /* Classes */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		00032DB422FD5D8E0051A912 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00032DCF22FD63D40051A912 /* ESUser.h */,
+				00032DB922FD5DD60051A912 /* Model */,
+				00032DB822FD5DC80051A912 /* ViewController */,
+				00032DB722FD5DB30051A912 /* Manager */,
+				00032DB622FD5DA80051A912 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00032DB522FD5D9A0051A912 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00032DCA22FD5F890051A912 /* ESUser.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00032DB622FD5DA80051A912 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00032DCC22FD5FAC0051A912 /* HuGeUserHomeView.h */,
+				00032DCD22FD5FAC0051A912 /* HuGeUserHomeView.m */,
+				002D4B8E230F9D6600660002 /* HuGeUserBlackCell.h */,
+				002D4B8F230F9D6600660002 /* HuGeUserBlackCell.m */,
+				002D4B90230F9D6600660002 /* HuGeUserBlackCell.xib */,
+				0075357E230D561300B49E73 /* HuGeUserMyMessageVCListCell.h */,
+				0075357F230D561300B49E73 /* HuGeUserMyMessageVCListCell.m */,
+				00753580230D561300B49E73 /* HuGeUserMyMessageVCListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00032DB722FD5DB30051A912 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				00032DBA22FD5F050051A912 /* HuGeUserManager.h */,
+				00032DBB22FD5F050051A912 /* HuGeUserManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		00032DB822FD5DC80051A912 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00032DF62301131C0051A912 /* log */,
+				00032DF7230113750051A912 /* HuGeUserHomeViewController.h */,
+				00032DF8230113750051A912 /* HuGeUserHomeViewController.m */,
+				002D4B83230F83C400660002 /* HuGeUserCenterVC.h */,
+				002D4B84230F83C400660002 /* HuGeUserCenterVC.m */,
+				002D4B85230F83C400660002 /* HuGeUserCenterVC.xib */,
+				002D4B88230F917C00660002 /* HuGeUserBlackListVC.h */,
+				002D4B89230F917C00660002 /* HuGeUserBlackListVC.m */,
+				00753578230D555900B49E73 /* HuGeUserMyMessageVC.h */,
+				00753579230D555900B49E73 /* HuGeUserMyMessageVC.m */,
+				00032DFC2301143E0051A912 /* EMYHFeedbackVC.h */,
+				00032DFA2301143E0051A912 /* EMYHFeedbackVC.m */,
+				00032DFB2301143E0051A912 /* EMYHFeedbackVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00032DB922FD5DD60051A912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00032DC722FD5F760051A912 /* HuGeUserModel.h */,
+				00032DC822FD5F760051A912 /* HuGeUserModel.m */,
+				002D4B8B230F92D000660002 /* HuGeUserListModel.h */,
+				002D4B8C230F92D000660002 /* HuGeUserListModel.m */,
+				00753583230D582800B49E73 /* HuGeUserMessageModel.h */,
+				00753584230D582800B49E73 /* HuGeUserMessageModel.m */,
+				00753586230D587A00B49E73 /* HuGeUserMessageListModel.h */,
+				00753587230D587A00B49E73 /* HuGeUserMessageListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00032DD322FD68DC0051A912 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				00032DD522FD69180051A912 /* Resources */,
+				00032DD422FD690D0051A912 /* Classes */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		00032DD422FD690D0051A912 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00032DDA22FD69790051A912 /* Information.h */,
+				00032DD922FD69520051A912 /* Model */,
+				00032DD822FD69490051A912 /* Manager */,
+				00032DD722FD693E0051A912 /* View */,
+				00032DD622FD69330051A912 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00032DD522FD69180051A912 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00032DE722FD6A3E0051A912 /* ESInfoHome.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00032DD622FD69330051A912 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00032DDB22FD69AD0051A912 /* HuGeInfoHomeVC.h */,
+				00032DDC22FD69AD0051A912 /* HuGeInfoHomeVC.m */,
+				00032DFF23013B4E0051A912 /* HuGeInfoHomeVCDetail.h */,
+				00032E0023013B4E0051A912 /* HuGeInfoHomeVCDetail.m */,
+				00753312230A89D500B49E73 /* HuGeInfoDetailCommentVC.h */,
+				00753313230A89D500B49E73 /* HuGeInfoDetailCommentVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00032DD722FD693E0051A912 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00032DDE22FD69F60051A912 /* HuGeInfoHomeCustomView.h */,
+				00032DDF22FD69F60051A912 /* HuGeInfoHomeCustomView.m */,
+				00032DF123010A4D0051A912 /* HuGeInfoHomeVCHomeCell.h */,
+				00032DF223010A4D0051A912 /* HuGeInfoHomeVCHomeCell.m */,
+				00032DF323010A4D0051A912 /* HuGeInfoHomeVCHomeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00032DD822FD69490051A912 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				00032DE122FD6A0F0051A912 /* HuGeInfoHomeManager.h */,
+				00032DE222FD6A0F0051A912 /* HuGeInfoHomeManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		00032DD922FD69520051A912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00032DE422FD6A280051A912 /* HuGeInfoHomeModel.h */,
+				00032DE522FD6A280051A912 /* HuGeInfoHomeModel.m */,
+				00032DE922FD73820051A912 /* HuGeInfoListModel.h */,
+				00032DEA22FD73820051A912 /* HuGeInfoListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00032DF62301131C0051A912 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				00032DBD22FD5F370051A912 /* HuGeUserLoginViewController.h */,
+				00032DBE22FD5F370051A912 /* HuGeUserLoginViewController.m */,
+				00032DBF22FD5F370051A912 /* HuGeUserLoginViewController.xib */,
+				00032DC222FD5F600051A912 /* HuGeUserRegestViewController.h */,
+				00032DC322FD5F600051A912 /* HuGeUserRegestViewController.m */,
+				00032DC422FD5F600051A912 /* HuGeUserRegestViewController.xib */,
+				002D4B93230FB80B00660002 /* HuGeWebViewController.h */,
+				002D4B94230FB80B00660002 /* HuGeWebViewController.m */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		00032E02230148F70051A912 /* DJTeam */ = {
+			isa = PBXGroup;
+			children = (
+				00032E0623014AE90051A912 /* HuGeDJBaseViewController.h */,
+				00032E0723014AE90051A912 /* HuGeDJBaseViewController.m */,
+				00032E032301494E0051A912 /* HuGeDJMWKViewController.h */,
+				00032E042301494E0051A912 /* HuGeDJMWKViewController.m */,
+			);
+			path = DJTeam;
+			sourceTree = "<group>";
+		};
+		00032E092301506C0051A912 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				00032E0B2301545F0051A912 /* Resources */,
+				00032E0A230154550051A912 /* Classes */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		00032E0A230154550051A912 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00032E1E230155BF0051A912 /* ESSPVideo.h */,
+				00032E0F2301548F0051A912 /* ViewController */,
+				00032E0E230154830051A912 /* View */,
+				00032E0D230154790051A912 /* Manager */,
+				00032E0C2301546C0051A912 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00032E0B2301545F0051A912 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00032E1F23015E790051A912 /* ESSPVideo.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00032E0C2301546C0051A912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00032E1B2301555C0051A912 /* HuGeSPVideoHomeModel.h */,
+				00032E1C2301555C0051A912 /* HuGeSPVideoHomeModel.m */,
+				00032E21230160330051A912 /* HuGeSPVideoHomeListModel.h */,
+				00032E22230160330051A912 /* HuGeSPVideoHomeListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00032E0D230154790051A912 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				00032E18230155350051A912 /* HuGeSPVideoManager.h */,
+				00032E19230155350051A912 /* HuGeSPVideoManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		00032E0E230154830051A912 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00032E132301551A0051A912 /* HuGeSPVideoHomeCell.h */,
+				00032E142301551A0051A912 /* HuGeSPVideoHomeCell.m */,
+				00032E152301551A0051A912 /* HuGeSPVideoHomeCell.xib */,
+				00FEEF7B230261840019E087 /* HuGeSPVideoRecommendedCell.h */,
+				00FEEF7C230261840019E087 /* HuGeSPVideoRecommendedCell.m */,
+				00FEEF7D230261840019E087 /* HuGeSPVideoRecommendedCell.xib */,
+				00FEEF70230254C90019E087 /* HuGeSQVideoLDetailHeaderView.h */,
+				00FEEF71230254C90019E087 /* HuGeSQVideoLDetailHeaderView.m */,
+				00FEEF73230257350019E087 /* HuGeSPVideoDetailView.h */,
+				00FEEF74230257350019E087 /* HuGeSPVideoDetailView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00032E0F2301548F0051A912 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00032E10230154C50051A912 /* HuGeSPVideoHomeVC.h */,
+				00032E11230154C50051A912 /* HuGeSPVideoHomeVC.m */,
+				00FEEF6D23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.h */,
+				00FEEF6E23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00735F7722F7FCF2005BA579 = {
+			isa = PBXGroup;
+			children = (
+				00753552230CDF9B00B49E73 /* Community */,
+				00753315230A8C5C00B49E73 /* Comment */,
+				00FEEF802303A1870019E087 /* Event */,
+				00032E092301506C0051A912 /* Video */,
+				00032E02230148F70051A912 /* DJTeam */,
+				00032DD322FD68DC0051A912 /* Information */,
+				00032DB322FD5D7C0051A912 /* User */,
+				00032D7222FD538B0051A912 /* Com */,
+				00735F8222F7FCF2005BA579 /* HuGeDJ */,
+				00735F8122F7FCF2005BA579 /* Products */,
+				59F845E2024BA663FCA76697 /* Pods */,
+				2FB3592FEE8FE764E2767901 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00735F8122F7FCF2005BA579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00735F8022F7FCF2005BA579 /* HuGeDJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00735F8222F7FCF2005BA579 /* HuGeDJ */ = {
+			isa = PBXGroup;
+			children = (
+				002D4BA12313BF7800660002 /* HuGeDJ.entitlements */,
+				00735F8322F7FCF2005BA579 /* AppDelegate.h */,
+				00735F8422F7FCF2005BA579 /* AppDelegate.m */,
+				00032DD022FD64980051A912 /* HuGeOneTabBarVC.h */,
+				00032DD122FD64980051A912 /* HuGeOneTabBarVC.m */,
+				00735F8622F7FCF2005BA579 /* ViewController.h */,
+				00735F8722F7FCF2005BA579 /* ViewController.m */,
+				00735F8922F7FCF2005BA579 /* Main.storyboard */,
+				00735F8C22F7FCF2005BA579 /* Assets.xcassets */,
+				00735F8E22F7FCF2005BA579 /* LaunchScreen.storyboard */,
+				00735F9122F7FCF2005BA579 /* Info.plist */,
+				00735F9222F7FCF2005BA579 /* main.m */,
+				00032DB222FD54030051A912 /* PrefixHeader.pch */,
+			);
+			path = HuGeDJ;
+			sourceTree = "<group>";
+		};
+		00753315230A8C5C00B49E73 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				00753317230A8C8500B49E73 /* Resources */,
+				00753316230A8C6B00B49E73 /* Classes */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		00753316230A8C6B00B49E73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00753549230A930200B49E73 /* ESComment.h */,
+				00753545230A92C800B49E73 /* Model */,
+				00753541230A90DD00B49E73 /* Manager */,
+				00753318230A8C9000B49E73 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00753317230A8C8500B49E73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0075353F230A90AE00B49E73 /* Comment.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00753318230A8C9000B49E73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0075331A230A8CA000B49E73 /* HuGePLCommentFooterView.h */,
+				0075331B230A8CA100B49E73 /* HuGePLCommentFooterView.m */,
+				00753319230A8CA000B49E73 /* HuGePLCommentFooterView.xib */,
+				0075354D230A962F00B49E73 /* HuGePLCommentCell.h */,
+				0075354E230A962F00B49E73 /* HuGePLCommentCell.m */,
+				0075354F230A962F00B49E73 /* HuGePLCommentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00753541230A90DD00B49E73 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				00753542230A915900B49E73 /* HuGeCommentManager.h */,
+				00753543230A915900B49E73 /* HuGeCommentManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		00753545230A92C800B49E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00753546230A92E800B49E73 /* HuGeCommentModel.h */,
+				00753547230A92E800B49E73 /* HuGeCommentModel.m */,
+				0075354A230A944800B49E73 /* HuGeCommentListModel.h */,
+				0075354B230A944800B49E73 /* HuGeCommentListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00753552230CDF9B00B49E73 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				00753554230CDFC300B49E73 /* Resources */,
+				00753553230CDFB100B49E73 /* Classes */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		00753553230CDFB100B49E73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0075356E230CED1900B49E73 /* Community.h */,
+				0075355D230CE06F00B49E73 /* Manager */,
+				0075355C230CE06400B49E73 /* Model */,
+				0075355B230CE05800B49E73 /* View */,
+				0075355A230CE03F00B49E73 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00753554230CDFC300B49E73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0075356C230CE3C600B49E73 /* ESCommunity.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0075355A230CE03F00B49E73 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0075356F230D12A300B49E73 /* HuGeCommunityListVC.h */,
+				00753570230D12A300B49E73 /* HuGeCommunityListVC.m */,
+				00753572230D15D700B49E73 /* HuGeCommunityDetailVC.h */,
+				00753573230D15D700B49E73 /* HuGeCommunityDetailVC.m */,
+				00753555230CE01A00B49E73 /* HuGeCommunityHomeVC.h */,
+				00753556230CE01A00B49E73 /* HuGeCommunityHomeVC.m */,
+				00753557230CE01A00B49E73 /* HuGeCommunityHomeVC.xib */,
+				00753575230D4BA000B49E73 /* HuGeCommunityMyListVC.h */,
+				00753576230D4BA000B49E73 /* HuGeCommunityMyListVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0075355B230CE05800B49E73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0075355E230CE36B00B49E73 /* HuGeCommunityListCell.h */,
+				0075355F230CE36B00B49E73 /* HuGeCommunityListCell.m */,
+				00753560230CE36B00B49E73 /* HuGeCommunityListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0075355C230CE06400B49E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00753563230CE38500B49E73 /* HuGeCommunityModel.h */,
+				00753564230CE38500B49E73 /* HuGeCommunityModel.m */,
+				00753566230CE39700B49E73 /* HuGeCommunityListModel.h */,
+				00753567230CE39700B49E73 /* HuGeCommunityListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0075355D230CE06F00B49E73 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				00753569230CE3AE00B49E73 /* HuGeCommunityManager.h */,
+				0075356A230CE3AE00B49E73 /* HuGeCommunityManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		00FEEF802303A1870019E087 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				00FEEF822303A1AD0019E087 /* Resources */,
+				00FEEF812303A1A40019E087 /* Classes */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		00FEEF812303A1A40019E087 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00FEEF972303A3A80019E087 /* EXEvent.h */,
+				00FEEF862303A1E10019E087 /* Manager */,
+				00FEEF852303A1D60019E087 /* Model */,
+				00FEEF842303A1CB0019E087 /* View */,
+				00FEEF832303A1C00019E087 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00FEEF822303A1AD0019E087 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00FEEF872303A22B0019E087 /* ESEvent.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00FEEF832303A1C00019E087 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00FEEF942303A2B10019E087 /* HuGeEventHomeViewController.h */,
+				00FEEF952303A2B10019E087 /* HuGeEventHomeViewController.m */,
+				00FEEFA02303E39B0019E087 /* HuGeEventHomeDetailVC.h */,
+				00FEEFA12303E39B0019E087 /* HuGeEventHomeDetailVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00FEEF842303A1CB0019E087 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00FC0B25230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.h */,
+				00FC0B26230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m */,
+				00FC0B24230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.xib */,
+				00FEEF8F2303A29B0019E087 /* HuGeEventHomeTableViewCell.h */,
+				00FEEF902303A29B0019E087 /* HuGeEventHomeTableViewCell.m */,
+				00FEEF912303A29B0019E087 /* HuGeEventHomeTableViewCell.xib */,
+				00FEEF9D2303A6D30019E087 /* HuGeEventTableViewCell.h */,
+				00FEEF9B2303A6D30019E087 /* HuGeEventTableViewCell.m */,
+				00FEEF9C2303A6D30019E087 /* HuGeEventTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00FEEF852303A1D60019E087 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00FEEF8C2303A2820019E087 /* HuGeEventModel.h */,
+				00FEEF8D2303A2820019E087 /* HuGeEventModel.m */,
+				00FEEF982303A43A0019E087 /* HuGeEventListModel.h */,
+				00FEEF992303A43B0019E087 /* HuGeEventListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00FEEF862303A1E10019E087 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				00FEEF892303A2580019E087 /* HuGeEventManager.h */,
+				00FEEF8A2303A2580019E087 /* HuGeEventManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2FB3592FEE8FE764E2767901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002D4B9E2313B67700660002 /* JavaScriptCore.framework */,
+				C2E0C40ED85C650C9FE9B267 /* Pods_HuGeDJ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59F845E2024BA663FCA76697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B500CE8449F43934B3825D7 /* Pods-HuGeDJ.debug.xcconfig */,
+				B2C8049DC516E37EAF7AB43B /* Pods-HuGeDJ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00735F7F22F7FCF2005BA579 /* HuGeDJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00735F9622F7FCF2005BA579 /* Build configuration list for PBXNativeTarget "HuGeDJ" */;
+			buildPhases = (
+				C766225ABD2EC42D89B52A42 /* [CP] Check Pods Manifest.lock */,
+				00735F7C22F7FCF2005BA579 /* Sources */,
+				00735F7D22F7FCF2005BA579 /* Frameworks */,
+				00735F7E22F7FCF2005BA579 /* Resources */,
+				00FDDA52E5808C2CCB63D362 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuGeDJ;
+			productName = HuGeDJ;
+			productReference = 00735F8022F7FCF2005BA579 /* HuGeDJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00735F7822F7FCF2005BA579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = edz;
+				TargetAttributes = {
+					00735F7F22F7FCF2005BA579 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 00735F7B22F7FCF2005BA579 /* Build configuration list for PBXProject "HuGeDJ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00735F7722F7FCF2005BA579;
+			productRefGroup = 00735F8122F7FCF2005BA579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00735F7F22F7FCF2005BA579 /* HuGeDJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00735F7E22F7FCF2005BA579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00032E2023015E790051A912 /* ESSPVideo.xcassets in Resources */,
+				00032DFE2301143E0051A912 /* EMYHFeedbackVC.xib in Resources */,
+				00FEEF7F230261840019E087 /* HuGeSPVideoRecommendedCell.xib in Resources */,
+				00FEEF932303A29B0019E087 /* HuGeEventHomeTableViewCell.xib in Resources */,
+				00735F9022F7FCF2005BA579 /* LaunchScreen.storyboard in Resources */,
+				00753582230D561300B49E73 /* HuGeUserMyMessageVCListCell.xib in Resources */,
+				00032DC622FD5F600051A912 /* HuGeUserRegestViewController.xib in Resources */,
+				00032DCB22FD5F890051A912 /* ESUser.xcassets in Resources */,
+				00753562230CE36B00B49E73 /* HuGeCommunityListCell.xib in Resources */,
+				00735F8D22F7FCF2005BA579 /* Assets.xcassets in Resources */,
+				00032E172301551A0051A912 /* HuGeSPVideoHomeCell.xib in Resources */,
+				00735F8B22F7FCF2005BA579 /* Main.storyboard in Resources */,
+				00032D9D22FD53AC0051A912 /* HuGeTestTableViewCell.xib in Resources */,
+				00753551230A962F00B49E73 /* HuGePLCommentCell.xib in Resources */,
+				00032DF523010A4D0051A912 /* HuGeInfoHomeVCHomeCell.xib in Resources */,
+				00032DB122FD53CC0051A912 /* ESAppCom.xcassets in Resources */,
+				00032DC122FD5F370051A912 /* HuGeUserLoginViewController.xib in Resources */,
+				002D4B87230F83C400660002 /* HuGeUserCenterVC.xib in Resources */,
+				00FEEF9F2303A6D30019E087 /* HuGeEventTableViewCell.xib in Resources */,
+				0075331C230A8CA100B49E73 /* HuGePLCommentFooterView.xib in Resources */,
+				002D4B92230F9D6600660002 /* HuGeUserBlackCell.xib in Resources */,
+				00FC0B27230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.xib in Resources */,
+				00FEEF882303A22B0019E087 /* ESEvent.xcassets in Resources */,
+				00753559230CE01A00B49E73 /* HuGeCommunityHomeVC.xib in Resources */,
+				0075356D230CE3C600B49E73 /* ESCommunity.xcassets in Resources */,
+				00753540230A90AE00B49E73 /* Comment.xcassets in Resources */,
+				00032DE822FD6A3E0051A912 /* ESInfoHome.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FDDA52E5808C2CCB63D362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuGeDJ/Pods-HuGeDJ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuGeDJ/Pods-HuGeDJ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HuGeDJ/Pods-HuGeDJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C766225ABD2EC42D89B52A42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuGeDJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00735F7C22F7FCF2005BA579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00032DF423010A4D0051A912 /* HuGeInfoHomeVCHomeCell.m in Sources */,
+				00032DE022FD69F60051A912 /* HuGeInfoHomeCustomView.m in Sources */,
+				00032E1A230155350051A912 /* HuGeSPVideoManager.m in Sources */,
+				00FEEF9E2303A6D30019E087 /* HuGeEventTableViewCell.m in Sources */,
+				00032D9F22FD53AC0051A912 /* HuGeTestViewController.m in Sources */,
+				00032DF9230113750051A912 /* HuGeUserHomeViewController.m in Sources */,
+				00032DEB22FD73820051A912 /* HuGeInfoListModel.m in Sources */,
+				0075356B230CE3AE00B49E73 /* HuGeCommunityManager.m in Sources */,
+				00032DA522FD53AC0051A912 /* NSString+EOBAdd.m in Sources */,
+				00735F8822F7FCF2005BA579 /* ViewController.m in Sources */,
+				00753548230A92E800B49E73 /* HuGeCommentModel.m in Sources */,
+				002D4B95230FB80B00660002 /* HuGeWebViewController.m in Sources */,
+				00FEEF962303A2B10019E087 /* HuGeEventHomeViewController.m in Sources */,
+				00032DE622FD6A280051A912 /* HuGeInfoHomeModel.m in Sources */,
+				0075357A230D555900B49E73 /* HuGeUserMyMessageVC.m in Sources */,
+				00735F9322F7FCF2005BA579 /* main.m in Sources */,
+				00032DAB22FD53AC0051A912 /* HuGeBaseModel.m in Sources */,
+				00032E23230160330051A912 /* HuGeSPVideoHomeListModel.m in Sources */,
+				00032DAD22FD53AC0051A912 /* MGImageTextButton.m in Sources */,
+				00FEEF9A2303A43B0019E087 /* HuGeEventListModel.m in Sources */,
+				00032DE322FD6A0F0051A912 /* HuGeInfoHomeManager.m in Sources */,
+				00032DA722FD53AC0051A912 /* NSDictionary+ESAdd.m in Sources */,
+				00032DAE22FD53AC0051A912 /* HuGeComManager.m in Sources */,
+				00032DC922FD5F760051A912 /* HuGeUserModel.m in Sources */,
+				002D4B8D230F92D000660002 /* HuGeUserListModel.m in Sources */,
+				00753558230CE01A00B49E73 /* HuGeCommunityHomeVC.m in Sources */,
+				00032E0823014AE90051A912 /* HuGeDJBaseViewController.m in Sources */,
+				00032E162301551A0051A912 /* HuGeSPVideoHomeCell.m in Sources */,
+				002D4B8A230F917C00660002 /* HuGeUserBlackListVC.m in Sources */,
+				00FC0B28230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m in Sources */,
+				00FEEFA22303E39B0019E087 /* HuGeEventHomeDetailVC.m in Sources */,
+				00753581230D561300B49E73 /* HuGeUserMyMessageVCListCell.m in Sources */,
+				00FEEF75230257350019E087 /* HuGeSPVideoDetailView.m in Sources */,
+				00FEEF922303A29B0019E087 /* HuGeEventHomeTableViewCell.m in Sources */,
+				00753561230CE36B00B49E73 /* HuGeCommunityListCell.m in Sources */,
+				00FEEF8E2303A2820019E087 /* HuGeEventModel.m in Sources */,
+				002D4B91230F9D6600660002 /* HuGeUserBlackCell.m in Sources */,
+				00032DAA22FD53AC0051A912 /* HuGeComConfig.m in Sources */,
+				00753544230A915900B49E73 /* HuGeCommentManager.m in Sources */,
+				00032DFD2301143E0051A912 /* EMYHFeedbackVC.m in Sources */,
+				00032DDD22FD69AD0051A912 /* HuGeInfoHomeVC.m in Sources */,
+				00032DBC22FD5F050051A912 /* HuGeUserManager.m in Sources */,
+				00032DA422FD53AC0051A912 /* UIViewController+MGRouter.m in Sources */,
+				00032DA122FD53AC0051A912 /* UIImageView+PodExtension.m in Sources */,
+				002D4B86230F83C400660002 /* HuGeUserCenterVC.m in Sources */,
+				00735F8522F7FCF2005BA579 /* AppDelegate.m in Sources */,
+				00032DC022FD5F370051A912 /* HuGeUserLoginViewController.m in Sources */,
+				0075331D230A8CA100B49E73 /* HuGePLCommentFooterView.m in Sources */,
+				00032D9E22FD53AC0051A912 /* HuGeTestTableViewCell.m in Sources */,
+				00032DC522FD5F600051A912 /* HuGeUserRegestViewController.m in Sources */,
+				00FEEF72230254C90019E087 /* HuGeSQVideoLDetailHeaderView.m in Sources */,
+				00753314230A89D500B49E73 /* HuGeInfoDetailCommentVC.m in Sources */,
+				00032E0123013B4E0051A912 /* HuGeInfoHomeVCDetail.m in Sources */,
+				00753577230D4BA000B49E73 /* HuGeCommunityMyListVC.m in Sources */,
+				00032E052301494E0051A912 /* HuGeDJMWKViewController.m in Sources */,
+				00032DD222FD64980051A912 /* HuGeOneTabBarVC.m in Sources */,
+				00032DA022FD53AC0051A912 /* UIView+MGNibLoading.m in Sources */,
+				00753565230CE38500B49E73 /* HuGeCommunityModel.m in Sources */,
+				00032DA622FD53AC0051A912 /* NSDate+EOBExtension.m in Sources */,
+				00753588230D587A00B49E73 /* HuGeUserMessageListModel.m in Sources */,
+				00FEEF7E230261840019E087 /* HuGeSPVideoRecommendedCell.m in Sources */,
+				00753550230A962F00B49E73 /* HuGePLCommentCell.m in Sources */,
+				00032DA822FD53AC0051A912 /* UIColor+MGAdd.m in Sources */,
+				00032DA322FD53AC0051A912 /* NSObject+PodExtension.m in Sources */,
+				00032DA922FD53AC0051A912 /* HuGeHTTPSessionManager.m in Sources */,
+				00FEEF6F23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.m in Sources */,
+				00032E12230154C50051A912 /* HuGeSPVideoHomeVC.m in Sources */,
+				00032DAC22FD53AC0051A912 /* HuGeResponseModel.m in Sources */,
+				00032DCE22FD5FAC0051A912 /* HuGeUserHomeView.m in Sources */,
+				00753574230D15D700B49E73 /* HuGeCommunityDetailVC.m in Sources */,
+				00032E1D2301555C0051A912 /* HuGeSPVideoHomeModel.m in Sources */,
+				00032DA222FD53AC0051A912 /* UIButton+PodExtension.m in Sources */,
+				00FEEF8B2303A2580019E087 /* HuGeEventManager.m in Sources */,
+				00753585230D582800B49E73 /* HuGeUserMessageModel.m in Sources */,
+				00753571230D12A300B49E73 /* HuGeCommunityListVC.m in Sources */,
+				0075354C230A944800B49E73 /* HuGeCommentListModel.m in Sources */,
+				00753568230CE39700B49E73 /* HuGeCommunityListModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00735F8922F7FCF2005BA579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00735F8A22F7FCF2005BA579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00735F8E22F7FCF2005BA579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00735F8F22F7FCF2005BA579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00735F9422F7FCF2005BA579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00735F9522F7FCF2005BA579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00735F9722F7FCF2005BA579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B500CE8449F43934B3825D7 /* Pods-HuGeDJ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = HuGeDJ/HuGeDJ.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6RWBR2ULWY;
+				GCC_PREFIX_HEADER = HuGeDJ/PrefixHeader.pch;
+				INFOPLIST_FILE = HuGeDJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuGeDJ.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = huge_dev_pro;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00735F9822F7FCF2005BA579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C8049DC516E37EAF7AB43B /* Pods-HuGeDJ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = HuGeDJ/HuGeDJ.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6RWBR2ULWY;
+				GCC_PREFIX_HEADER = HuGeDJ/PrefixHeader.pch;
+				INFOPLIST_FILE = HuGeDJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuGeDJ.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = huge_dis_pro;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00735F7B22F7FCF2005BA579 /* Build configuration list for PBXProject "HuGeDJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00735F9422F7FCF2005BA579 /* Debug */,
+				00735F9522F7FCF2005BA579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00735F9622F7FCF2005BA579 /* Build configuration list for PBXNativeTarget "HuGeDJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00735F9722F7FCF2005BA579 /* Debug */,
+				00735F9822F7FCF2005BA579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00735F7822F7FCF2005BA579 /* Project object */;
+}

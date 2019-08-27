@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="HuGePLCommentCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="110.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一叶知秋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFe-0v-EQB">
+                        <rect key="frame" x="84" y="16" width="220" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斗神一叶知秋持有者" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awi-3d-x0l">
+                        <rect key="frame" x="84" y="45" width="220" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANz-RY-Er4">
+                        <rect key="frame" x="274" y="85.5" width="30" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="rp5-ZK-4F6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="举报">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="report:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ErC-9M-6T6"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="de5-g4-o4X">
+                        <rect key="frame" x="16" y="16" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="2xS-ya-WIR"/>
+                            <constraint firstAttribute="width" constant="60" id="a2U-rO-eEG"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wow-Gk-LaX">
+                        <rect key="frame" x="212" y="85.5" width="30" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="Qlu-Du-cFE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="拉黑">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="shieldIng:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZRa-Za-4bf"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ANz-RY-Er4" firstAttribute="leading" secondItem="wow-Gk-LaX" secondAttribute="trailing" constant="32" id="5Og-aH-9ZY"/>
+                    <constraint firstAttribute="trailing" secondItem="Awi-3d-x0l" secondAttribute="trailing" constant="16" id="64B-ne-kjo"/>
+                    <constraint firstItem="de5-g4-o4X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="7Oo-O6-TCK"/>
+                    <constraint firstAttribute="trailing" secondItem="cFe-0v-EQB" secondAttribute="trailing" constant="16" id="FkV-Ra-3qE"/>
+                    <constraint firstItem="de5-g4-o4X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="MKa-PI-x7N"/>
+                    <constraint firstAttribute="bottom" secondItem="ANz-RY-Er4" secondAttribute="bottom" constant="8" id="Mzp-8o-pLg"/>
+                    <constraint firstItem="Awi-3d-x0l" firstAttribute="top" secondItem="cFe-0v-EQB" secondAttribute="bottom" constant="8" id="RWy-Fp-GSu"/>
+                    <constraint firstItem="Awi-3d-x0l" firstAttribute="leading" secondItem="de5-g4-o4X" secondAttribute="trailing" constant="8" id="XTu-Es-JMn"/>
+                    <constraint firstAttribute="bottom" secondItem="wow-Gk-LaX" secondAttribute="bottom" constant="8" id="fDd-Sr-abs"/>
+                    <constraint firstItem="cFe-0v-EQB" firstAttribute="leading" secondItem="de5-g4-o4X" secondAttribute="trailing" constant="8" id="jae-Vy-Vfi"/>
+                    <constraint firstItem="cFe-0v-EQB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="rOg-nq-jdg"/>
+                    <constraint firstAttribute="trailing" secondItem="ANz-RY-Er4" secondAttribute="trailing" constant="16" id="vyP-ry-pWN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="content" destination="Awi-3d-x0l" id="YgO-J4-l7Q"/>
+                <outlet property="headerImg" destination="de5-g4-o4X" id="Jbz-aB-5Ov"/>
+                <outlet property="userName" destination="cFe-0v-EQB" id="LIJ-0R-oxG"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="112.16517857142857"/>
+        </tableViewCell>
+    </objects>
+</document>

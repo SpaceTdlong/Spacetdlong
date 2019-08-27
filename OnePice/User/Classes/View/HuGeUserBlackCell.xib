@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="83" id="KGk-i7-Jjw" customClass="HuGeUserBlackCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="明天的事" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fo-CR-XE1">
+                        <rect key="frame" x="82.5" y="16" width="69.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SBf-JZ-F8r">
+                        <rect key="frame" x="16" y="16" width="50.5" height="50.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50.5" id="Wyc-AV-G05"/>
+                            <constraint firstAttribute="width" constant="50.5" id="jej-87-isC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="明天会更好" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcN-wc-DEs">
+                        <rect key="frame" x="82.5" y="39" width="221.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4fo-CR-XE1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="E4K-29-8He"/>
+                    <constraint firstItem="SBf-JZ-F8r" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Im5-eV-n2w"/>
+                    <constraint firstItem="zcN-wc-DEs" firstAttribute="top" secondItem="4fo-CR-XE1" secondAttribute="bottom" constant="2" id="aAc-Hi-Xuq"/>
+                    <constraint firstItem="4fo-CR-XE1" firstAttribute="leading" secondItem="SBf-JZ-F8r" secondAttribute="trailing" constant="16" id="col-YO-c5E"/>
+                    <constraint firstItem="zcN-wc-DEs" firstAttribute="leading" secondItem="SBf-JZ-F8r" secondAttribute="trailing" constant="16" id="sgJ-m0-bCE"/>
+                    <constraint firstItem="SBf-JZ-F8r" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="tJf-L9-4q5"/>
+                    <constraint firstAttribute="bottom" secondItem="SBf-JZ-F8r" secondAttribute="bottom" constant="16" id="va3-5U-3cz"/>
+                    <constraint firstAttribute="trailing" secondItem="zcN-wc-DEs" secondAttribute="trailing" constant="16" id="ySo-Ti-Awt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="avatar" destination="SBf-JZ-F8r" id="dH5-F2-phz"/>
+                <outlet property="bio" destination="zcN-wc-DEs" id="IPA-Eb-Hsf"/>
+                <outlet property="nickName" destination="4fo-CR-XE1" id="wjf-Yf-nma"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="99.441964285714278"/>
+        </tableViewCell>
+    </objects>
+</document>

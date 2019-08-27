@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  OnePice
+//
+//  Created by edz on 2019/8/9.
+//  Copyright © 2019 edz. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define CS6(Value)  ((Value)/375.0f*[UIScreen mainScreen].bounds.size.width)
+
+#import <YYText/YYText.h>//文本适配
+
+#import "ESUser.h"
+#import "Information.h"
+#import "ESSPVideo.h"
+#import "EXEvent.h"
+#import "ESAppCom.h"
+#import "ESComment.h"
+#import "Community.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
