@@ -24,7 +24,8 @@
 }
 -(void)addVC{
 
-    [self configVC:[[HuGeEventHomeViewController alloc] init] icon:@"saishi" selectedIcon:@"saishi" title:@"赛事"];
+//    [self configVC:[[HuGeEventHomeViewController alloc] init] icon:@"saishi" selectedIcon:@"saishi" title:@"赛事"];
+    [self configVC:[[HuGeOpenBlackListVC alloc] init] icon:@"saishi" selectedIcon:@"saishi" title:@"约玩"];
     
     //    HuGeInfoHomeVCDetail * vc =  [[HuGeInfoHomeVCDetail alloc] init];
     //    vc.url = [NSURL URLWithString:@"https://www.huya.com/g/lol"];
