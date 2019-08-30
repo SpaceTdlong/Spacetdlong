@@ -11,7 +11,7 @@
 @implementation HuGeOpenBlackManager
 
 + (void)huGe_dataOpenBlackListWithPage:(NSUInteger)page
-                               success:(void (^)(NSArray<HuGeOpenBlackUserModel *> *list, BOOL isLoadEnd, NSInteger total))success
+                               success:(void (^)(NSArray<HuGeOpenBlackRoomModel *> *list, BOOL isLoadEnd, NSInteger total))success
                                failure:(void (^)(NSError *error))failure{
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     //http://scrapy.1024group.com/index.php/api/forum/flist/
@@ -42,6 +42,7 @@
         }
     }];
 }
+
 +(void)huGe_joinRoomWithRoomID:(NSString  *)roomID
                        success:(void (^)(NSString * success))success
                        failure:(void (^)(NSError *error))failure{
@@ -59,7 +60,47 @@
         if (response.code == 1) {
             
             if (success) {
-                success([[responseObject objectForKey:@"data"] objectForKey:@"msg"]);
+                success([responseObject objectForKey:@"msg"]);
+            }
+        } else {
+            if (failure) {
+                NSError *error = [NSError errorWithDomain:response.msg code:response.error userInfo:nil];
+                failure(error);
+            }
+        }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        if (failure) {
+            failure(error);
+        }
+    }];
+}
+
+
+
++(void)huGe_creatRoomWithRoom_name:(NSString  *)room_name
+                        room_type:(NSString  *)room_type
+                            brief:(NSString  *)brief
+                       start_time:(NSString  *)start_time
+                          success:(void (^)(NSString * success))success
+                          failure:(void (^)(NSError *error))failure{
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    //http://scrapy.1024group.com/index.php/api/room/joinroom?r_id=1&phone=18655667766&qq=23456544
+    
+    NSString *url = @"/index.php/api/room/addroom";
+    [params setValue:room_name forKey:@"room_name"];
+    [params setValue:room_type forKey:@"room_type"];
+    [params setValue:brief forKey:@"brief"];
+    [params setValue:start_time forKey:@"start_time"];
+    [[HuGeHTTPSessionManager shareManager] POST:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSLog(@"创建房间数据： %@",responseObject);
+        
+        
+        HuGeResponseModel *response = [HuGeResponseModel yy_modelWithDictionary:responseObject];
+        if (response.code == 1) {
+            
+            if (success) {
+                success([responseObject objectForKey:@"msg"]);
             }
         } else {
             if (failure) {

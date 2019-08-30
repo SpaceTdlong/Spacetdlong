@@ -12,8 +12,11 @@
 #import "HuGeOpenBlackUserModel.h"
 #import "HuGeOpenBlackRoomModel.h"
 #import "HuGeOpenBlackRoomListModel.h"
+#import "HuGeOpenBlackHomeOwnersCell.h"
+#import "HuGeOpenBlackRoomDetailCell.h"
 #import "HuGeOpenBlackManager.h"
 #import "HuGeOpenBlackListCell.h"
+#import "HuGeOpenBlackDetailVC.h"
 #import "HuGeOpenBlackCreateRoomVC.h"
 #import "HuGeOpenBlackListVC.h"
 

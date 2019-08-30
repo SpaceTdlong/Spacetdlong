@@ -19,6 +19,11 @@
 
 @implementation HuGeOpenBlackListVC
 
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self em_refreshData];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -29,7 +34,13 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"发布约玩" style:UIBarButtonItemStyleDone target:self action:@selector(rightBarButtonClick)];
 }
 -(void)rightBarButtonClick{
-    [self.navigationController pushViewController:[[HuGeOpenBlackCreateRoomVC alloc] init] animated:YES];
+    NSUserDefaults * userDefault = [NSUserDefaults standardUserDefaults];
+    NSString * token = [userDefault objectForKey:@"token"];
+    if (!token) {
+        [self.navigationController pushViewController:[[HuGeUserLoginViewController alloc] init] animated:YES];
+    }else{
+        [self.navigationController pushViewController:[[HuGeOpenBlackCreateRoomVC alloc] init] animated:YES];
+    }
 }
 #pragma mark - UIViewControllerLifeMethod
 - (void)initViewController {
@@ -63,6 +74,7 @@
         @weakify(self);
         self.collectionView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
             @strongify(self);
+            self.page++;
             [self em_laodData];
         }];
     }
@@ -70,7 +82,7 @@
 - (void)em_laodData{
     @weakify(self);
     [self.collectionView ly_startLoading];
-    [HuGeOpenBlackManager huGe_dataOpenBlackListWithPage:1 success:^(NSArray<HuGeOpenBlackUserModel *> * _Nonnull list, BOOL isLoadEnd, NSInteger total) {
+    [HuGeOpenBlackManager huGe_dataOpenBlackListWithPage:1 success:^(NSArray<HuGeOpenBlackRoomModel *> * _Nonnull list, BOOL isLoadEnd, NSInteger total) {
         @strongify(self);
         [SVProgressHUD dismiss];
         [self.collectionView ly_endLoading];
@@ -81,7 +93,6 @@
             }
         }
         if (list.count > 0) {
-            self.page++;
             [self.dataArray addObjectsFromArray:list];
         }
         if (isLoadEnd) {
@@ -145,12 +156,10 @@
 }
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    HuGeSPVideoHomeDetailVC * vc = [[HuGeSPVideoHomeDetailVC alloc] init];
-    vc.video = self.dataArray[indexPath.item];
-    vc.hidesBottomBarWhenPushed = YES;
+    HuGeOpenBlackRoomModel * model = self.dataArray[indexPath.item];
+    HuGeOpenBlackDetailVC * vc = [[HuGeOpenBlackDetailVC alloc] init];
+    vc.model = model;
     [self.navigationController pushViewController:vc animated:YES];
-    
-    
 }
 
 #pragma mark - Lazy Loading

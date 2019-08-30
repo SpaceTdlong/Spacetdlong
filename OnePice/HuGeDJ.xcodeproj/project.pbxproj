@@ -105,6 +105,12 @@
 		00753582230D561300B49E73 /* HuGeUserMyMessageVCListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00753580230D561300B49E73 /* HuGeUserMyMessageVCListCell.xib */; };
 		00753585230D582800B49E73 /* HuGeUserMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753584230D582800B49E73 /* HuGeUserMessageModel.m */; };
 		00753588230D587A00B49E73 /* HuGeUserMessageListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00753587230D587A00B49E73 /* HuGeUserMessageListModel.m */; };
+		00FB17EF231687FE00E36BC0 /* HuGeDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB17EE231687FE00E36BC0 /* HuGeDatePickerView.m */; };
+		00FB17F22317C44200E36BC0 /* HuGeOpenBlackDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB17F12317C44200E36BC0 /* HuGeOpenBlackDetailVC.m */; };
+		00FB17F62317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB17F42317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.m */; };
+		00FB17F72317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FB17F52317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.xib */; };
+		00FB17FB2317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB17F92317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.m */; };
+		00FB17FC2317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FB17FA2317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.xib */; };
 		00FC0B27230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FC0B24230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.xib */; };
 		00FC0B28230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FC0B26230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m */; };
 		00FEEF6F23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEEF6E23024F4D0019E087 /* HuGeSPVideoHomeDetailVC.m */; };
@@ -306,6 +312,16 @@
 		00753584230D582800B49E73 /* HuGeUserMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserMessageModel.m; sourceTree = "<group>"; };
 		00753586230D587A00B49E73 /* HuGeUserMessageListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeUserMessageListModel.h; sourceTree = "<group>"; };
 		00753587230D587A00B49E73 /* HuGeUserMessageListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeUserMessageListModel.m; sourceTree = "<group>"; };
+		00FB17ED231687FE00E36BC0 /* HuGeDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeDatePickerView.h; sourceTree = "<group>"; };
+		00FB17EE231687FE00E36BC0 /* HuGeDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeDatePickerView.m; sourceTree = "<group>"; };
+		00FB17F02317C44200E36BC0 /* HuGeOpenBlackDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeOpenBlackDetailVC.h; sourceTree = "<group>"; };
+		00FB17F12317C44200E36BC0 /* HuGeOpenBlackDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeOpenBlackDetailVC.m; sourceTree = "<group>"; };
+		00FB17F32317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeOpenBlackHomeOwnersCell.h; sourceTree = "<group>"; };
+		00FB17F42317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeOpenBlackHomeOwnersCell.m; sourceTree = "<group>"; };
+		00FB17F52317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeOpenBlackHomeOwnersCell.xib; sourceTree = "<group>"; };
+		00FB17F82317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuGeOpenBlackRoomDetailCell.h; sourceTree = "<group>"; };
+		00FB17F92317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuGeOpenBlackRoomDetailCell.m; sourceTree = "<group>"; };
+		00FB17FA2317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuGeOpenBlackRoomDetailCell.xib; sourceTree = "<group>"; };
 		00FC0B24230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuGeEventTwoTypeHomeCell.xib; sourceTree = "<group>"; };
 		00FC0B25230E3B2B00905271 /* HuGeEventTwoTypeHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuGeEventTwoTypeHomeCell.h; sourceTree = "<group>"; };
 		00FC0B26230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuGeEventTwoTypeHomeCell.m; sourceTree = "<group>"; };
@@ -420,8 +436,8 @@
 		00032D8F22FD53AC0051A912 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				00032D9022FD53AC0051A912 /* HuGeHTTPSessionManager.m */,
 				00032D9122FD53AC0051A912 /* HuGeHTTPSessionManager.h */,
+				00032D9022FD53AC0051A912 /* HuGeHTTPSessionManager.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -756,6 +772,8 @@
 				002D4BBE231669C500660002 /* HuGeOpenBlackCreateRoomVC.h */,
 				002D4BBF231669C500660002 /* HuGeOpenBlackCreateRoomVC.m */,
 				002D4BC0231669C500660002 /* HuGeOpenBlackCreateRoomVC.xib */,
+				00FB17F02317C44200E36BC0 /* HuGeOpenBlackDetailVC.h */,
+				00FB17F12317C44200E36BC0 /* HuGeOpenBlackDetailVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -766,6 +784,14 @@
 				002D4BB923164FD400660002 /* HuGeOpenBlackListCell.h */,
 				002D4BBA23164FD400660002 /* HuGeOpenBlackListCell.m */,
 				002D4BBB23164FD400660002 /* HuGeOpenBlackListCell.xib */,
+				00FB17ED231687FE00E36BC0 /* HuGeDatePickerView.h */,
+				00FB17EE231687FE00E36BC0 /* HuGeDatePickerView.m */,
+				00FB17F32317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.h */,
+				00FB17F42317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.m */,
+				00FB17F52317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.xib */,
+				00FB17F82317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.h */,
+				00FB17F92317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.m */,
+				00FB17FA2317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1138,6 +1164,7 @@
 			files = (
 				00032E2023015E790051A912 /* ESSPVideo.xcassets in Resources */,
 				00032DFE2301143E0051A912 /* EMYHFeedbackVC.xib in Resources */,
+				00FB17F72317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.xib in Resources */,
 				00FEEF7F230261840019E087 /* HuGeSPVideoRecommendedCell.xib in Resources */,
 				00FEEF932303A29B0019E087 /* HuGeEventHomeTableViewCell.xib in Resources */,
 				00735F9022F7FCF2005BA579 /* LaunchScreen.storyboard in Resources */,
@@ -1159,6 +1186,7 @@
 				0075331C230A8CA100B49E73 /* HuGePLCommentFooterView.xib in Resources */,
 				002D4BC2231669C500660002 /* HuGeOpenBlackCreateRoomVC.xib in Resources */,
 				002D4B92230F9D6600660002 /* HuGeUserBlackCell.xib in Resources */,
+				00FB17FC2317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.xib in Resources */,
 				00FC0B27230E3B2C00905271 /* HuGeEventTwoTypeHomeCell.xib in Resources */,
 				00FEEF882303A22B0019E087 /* ESEvent.xcassets in Resources */,
 				00753559230CE01A00B49E73 /* HuGeCommunityHomeVC.xib in Resources */,
@@ -1258,6 +1286,7 @@
 				00753561230CE36B00B49E73 /* HuGeCommunityListCell.m in Sources */,
 				00FEEF8E2303A2820019E087 /* HuGeEventModel.m in Sources */,
 				002D4BBC23164FD400660002 /* HuGeOpenBlackListCell.m in Sources */,
+				00FB17F62317C48500E36BC0 /* HuGeOpenBlackHomeOwnersCell.m in Sources */,
 				002D4B91230F9D6600660002 /* HuGeUserBlackCell.m in Sources */,
 				00032DAA22FD53AC0051A912 /* HuGeComConfig.m in Sources */,
 				00753544230A915900B49E73 /* HuGeCommentManager.m in Sources */,
@@ -1267,16 +1296,19 @@
 				00032DA422FD53AC0051A912 /* UIViewController+MGRouter.m in Sources */,
 				00032DA122FD53AC0051A912 /* UIImageView+PodExtension.m in Sources */,
 				002D4B86230F83C400660002 /* HuGeUserCenterVC.m in Sources */,
+				00FB17EF231687FE00E36BC0 /* HuGeDatePickerView.m in Sources */,
 				00735F8522F7FCF2005BA579 /* AppDelegate.m in Sources */,
 				00032DC022FD5F370051A912 /* HuGeUserLoginViewController.m in Sources */,
 				0075331D230A8CA100B49E73 /* HuGePLCommentFooterView.m in Sources */,
 				002D4BC1231669C500660002 /* HuGeOpenBlackCreateRoomVC.m in Sources */,
 				00032D9E22FD53AC0051A912 /* HuGeTestTableViewCell.m in Sources */,
+				00FB17FB2317C6F400E36BC0 /* HuGeOpenBlackRoomDetailCell.m in Sources */,
 				00032DC522FD5F600051A912 /* HuGeUserRegestViewController.m in Sources */,
 				00FEEF72230254C90019E087 /* HuGeSQVideoLDetailHeaderView.m in Sources */,
 				002D4BB523164E1900660002 /* HuGeOpenBlackRoomListModel.m in Sources */,
 				00753314230A89D500B49E73 /* HuGeInfoDetailCommentVC.m in Sources */,
 				00032E0123013B4E0051A912 /* HuGeInfoHomeVCDetail.m in Sources */,
+				00FB17F22317C44200E36BC0 /* HuGeOpenBlackDetailVC.m in Sources */,
 				00753577230D4BA000B49E73 /* HuGeCommunityMyListVC.m in Sources */,
 				00032E052301494E0051A912 /* HuGeDJMWKViewController.m in Sources */,
 				00032DD222FD64980051A912 /* HuGeOneTabBarVC.m in Sources */,

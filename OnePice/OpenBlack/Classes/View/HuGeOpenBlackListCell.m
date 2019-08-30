@@ -32,15 +32,18 @@
     _model = model;
     if (self.model.room_type == 0) {
         self.game_name.text = @"英雄联盟";
+        self.game_img.image = [UIImage imageNamed:@"LOLLOGO"];
     }else if (self.model.room_type == 1){
         self.game_name.text = @"DOTA2";
+        self.game_img.image = [UIImage imageNamed:@"DOTA2LOGO"];
     }else if (self.model.room_type == 2){
         self.game_name.text = @"王者荣耀";
+        self.game_img.image = [UIImage imageNamed:@"WZRYLOGO"];
     }else if (self.model.room_type == 3){
         self.game_name.text = @"CSGO";
+        self.game_img.image = [UIImage imageNamed:@"CSGOLOGO"];
     }
     self.gameTime.text = self.model.start_time;
-    self.game_img.image = [UIImage imageNamed:@""];
     self.room_title.text = self.model.room_name;
     self.room_content.text = self.model.brief;
     self.room_Num.text = [NSString stringWithFormat:@"当前人数：%ld",self.model.joinlist.count];
@@ -57,6 +60,15 @@
     });
 }
 - (IBAction)joinRoom:(id)sender {
+    [HuGeOpenBlackManager huGe_joinRoomWithRoomID:[NSString stringWithFormat:@"%ld",self.model.roomID] success:^(NSString * _Nonnull success) {
+        if ([success isEqualToString:@""]) {
+            if ([success isEqualToString:@"join room successful"]) {
+                [SVProgressHUD showSuccessWithStatus:@"加入成功"];;
+            }
+        }
+    } failure:^(NSError * _Nonnull error) {
+        
+    }];
     
 }
 

@@ -12,6 +12,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HuGeOpenBlackCreateRoomVC">
             <connections>
+                <outlet property="gameBtn" destination="ezm-jI-Nwk" id="xEJ-pt-PSo"/>
+                <outlet property="gameImg" destination="2hr-fK-giS" id="fae-sv-NUB"/>
+                <outlet property="roomContent" destination="N4X-wT-WEB" id="3iW-mL-R0V"/>
+                <outlet property="roomEmail" destination="uYk-pv-DvX" id="flx-fd-V4v"/>
+                <outlet property="roomName" destination="qYc-uK-wW8" id="u86-ef-K3z"/>
+                <outlet property="roomQQ" destination="w8E-0n-UWO" id="YS1-JJ-Sef"/>
+                <outlet property="roomTime" destination="TzC-Db-tAo" id="F8f-Lv-ZUj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -37,12 +44,18 @@
                             <state key="normal" title="英雄联盟">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="clickGame:" destination="-1" eventType="touchUpInside" id="r4d-Xp-XTy"/>
+                            </connections>
                         </button>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2hr-fK-giS">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOLLOGO" translatesAutoresizingMaskIntoConstraints="NO" id="2hr-fK-giS">
                             <rect key="frame" x="342" y="13.5" width="56" height="56"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="2hr-fK-giS" secondAttribute="height" multiplier="1:1" id="HBL-8b-kW0"/>
                             </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="podImage" value="LOLLOGO"/>
+                            </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -183,19 +196,25 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="2019-09-10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzC-Db-tAo">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="2019-12-29 12:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzC-Db-tAo">
                             <rect key="frame" x="123" y="12" width="215" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19u-eT-Re3">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19u-eT-Re3">
                             <rect key="frame" x="368" y="7.5" width="30" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="30" id="Lyj-cG-wpt"/>
                                 <constraint firstAttribute="width" constant="30" id="tlc-aL-Avg"/>
                             </constraints>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" image="calendar"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="podImage" value="calendar"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="roomTimeClick:" destination="-1" eventType="touchUpInside" id="dRb-I4-3gM"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -224,6 +243,9 @@
                     <state key="normal" title="创建房间">
                         <color key="titleColor" white="0.96261553700000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="creatRoom:" destination="-1" eventType="touchUpInside" id="KxA-Ib-L7O"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -253,4 +275,8 @@
             <point key="canvasLocation" x="137.68115942028987" y="94.419642857142847"/>
         </view>
     </objects>
+    <resources>
+        <image name="LOLLOGO" width="200" height="200"/>
+        <image name="calendar" width="15" height="15"/>
+    </resources>
 </document>
